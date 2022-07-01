@@ -1,0 +1,59 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 500px;
+}
+.bio{
+    background-color: rgb(12, 207, 139);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    background-color:forestgreen;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.education{
+    background-color: blueviolet;
+    height: 200px;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    
+    margin: auto;
+}
+
+.hobbies{
+    background-color: yellow;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    background-color: lightcoral;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact:hover{
+    background-color: tomato;
+}
+.hobbies:hover{
+    background-color: tomato;
+}
+.education:hover{
+    background-color: tomato;
+}
+.bio:hover{
+    background-color: tomato;
+}.pic:hover{
+    background-color: tomato;
+}
